@@ -96,7 +96,7 @@ namespace AppBanco
             {
                 Console.WriteLine("Seleccione "+(i+1)+" para ingresar a la cuenta de "+list[i,0]);
             }
-            num=int.Parse(Console.ReadLine())-1;
+            num = int.Parse(Console.ReadLine()) - 1;
             return num;
         }
     }
